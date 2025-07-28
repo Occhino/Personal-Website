@@ -1,48 +1,6 @@
 body{
 	font-size: 16px;
 }
-.navbar{
-	background-color: #999;
-}
-
-.navbar-nav{
-	background-color: white;
-	border: 3px solid black;
-	margin-left: -13px;
-	margin-right: -13px;
-	margin-top: 10px;
-	margin-bottom: -7px;
-}
-
-hr{
-	width:95%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top:0px;
-	margin-bottom:0px;
-	background-color: #000;
-	height:2px;
-	opacity:1;
-}
-
-.menu-itemcontent{
-	background-color: #999;
-	margin-top: 25px;
-	margin-left: 20px;
-	margin-right: 20px;
-}
-.menu-itemcontent p{
-	margin-left: 10px;
-	margin-right: 10px;
-}
-
-h2{
-	margin-top: 20px;
-}
-
-.nav-link{
-	font-weight: bold;
-}
 
 
 
