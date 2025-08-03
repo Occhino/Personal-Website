@@ -1,32 +1,96 @@
 * {
-	font-size: 16px;
+	font-size: 18px;
 	margin: 0px;
 	border: 0px;
 	padding: 0px;
 }
+
 .navbar { 
 	padding: 0px;
 }
-.container-fluid{
-	background-color: cornflowerblue;
+
+.container {
+	margin-bottom: 20px;
 }
-.nav-link{
-	margin-right: 20px;
-	margin-bottom: 10px;
-	/*background-color: red;*/
-}
-.row{
+
+.row {
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 25px;
+	max-width: 1300px;
 }
-.skills, .education, .hobbies{
-	background-color: darkgray;
+
+.container .row {
+	width: 100%;
 }
-.skillscontent, .educationcontent, .hobbiescontent{
+
+.skillitem {
+	width: 100%;
+	margin-bottom: 10px;
+	/*margin-left: auto;
+	margin-right: auto;*/
+}
+
+.skillitem p {
+	margin: 0px;
+}
+.img {
+	width: 75px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 5px;
+}
+
+.nav-link {
+	margin-right: 20px;
+}
+
+.skillcategory {
 	background-color: bisque;
+	border: 2px solid black;
 }
-/*.skillscontent{
-	margin-right: 15px;
-}*/
+
+.skname {
+	font-weight: bold;
+}
+
+#bsimage {
+	display: none;
+}
+
+#selfie {
+	margin-bottom: 10px;
+}
+
+body {
+	background-color:rgb(97, 167, 175);
+}
+
+.pageheader {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.footcalltoaction p {
+	font-size: 1.75em;
+	font-style: italic;
+	margin-bottom: 10px;
+}
+
+#linkedin p {
+	margin: 10px 0px 0px 0px;
+}
+
+#copyright p {
+	margin-top: 10px;
+}
+
+#personalintro {
+	background-color: bisque;
+	border: 2px solid black;
+	padding: 0px 15px 0px 15px;
+}
+ table tr td img {
+	margin-top: 5px;
+ }

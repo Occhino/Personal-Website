@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Vincent Occhino</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+
+    <body>
+        <nav class="navbar bg-body-teritiary">
+            <div class="container-fluid justify-content-center">
+                <a class="navbar-brand h1" href="index.html">Vincent Occhino</a>
+            </div>
+        </nav>
+        <nav class="navbar bg-body-teritiary">
+            <div class="container-fluid justify-content-center">
+                <a class="nav-link" href="index.html">Skills</a>
+                <a class="nav-link" href="education.html">Education</a>
+                <!--<a class="nav-link" href="#">Projects</a>
+                <a class="nav-link" href="#">Hobbies</a>-->
+                <a class="nav-link" href="goals.html">Goals</a>
+                <a class="nav-link" href="contactme.html">Contact Me</a>
+            </div>
+        </nav>
+        
+        <div class="row">
+            <div class="container">
+                <h3 class="text-center">Contact Me</h3>
+                <p>Sections with * are required</p>
+                <form class="row g-3" action="https://formsubmit.co/vincentocchino@yahoo.com" method="POST">
+                    <!--Honey Pot-->
+                    <input type="text" name="_honey" style="display: none;">
+
+                    <!--Disable Captcha-->
+                    <input type="hidden" name="_captcha" value="false">
+                    
+                    <!--Success Message Link-->
+                    <input type="hidden" name="_next" value="https://occhino.github.io/Personal-Website/success.html">
+
+                    <!--Form Content-->
+                    <label for="Subject">Select a subject: *</label>
+                    <select class="form-select" name="Subject">
+                        <option selected>Select One</option>
+                        <option value="1">Web Development</option>
+                        <option value="2">PC Repair/Maintenance</option>
+                        <option value="3">Job Position</option>
+                        <option value="4">Other</option>
+                    </select>
+                    
+                    <div class="col-md-6">
+                        <label for="firstName" class="form-label">First Name *</label>
+                        <input type="text" class="form-control" name="First&nbsp;Name" id="firstName" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="lastName" class="form-label">Last Name *</label>
+                        <input type="text" class="form-control" name="Last&nbsp;Name" id="lastName" required>
+                    </div>
+                    <div class="col-md-8">
+                        <label for="emailInfo" class="form-label">Email *</label>
+                        <input type="text" class="form-control" name="Email" id="email" required>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="phoneNumber" class="form-label">Phone Number</label>
+                        <input type="text" class="form-control" name="Phone&nbsp;Number" id="phoneNumber" required placeholder="+1 (555) 555-5555">
+                    </div>
+                    <div class="col-md-12">
+                        <label for="comments" class="form-label">Comments *</label>
+                        <textarea class="form-control" name="Comments,&nbsp;questions" id="comments" rows="3" required></textarea>
+                    </div>
+                    <div class="col-md-12">
+                        <buttton type="submit" class="btn btn-primary">Submit</buttton>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footcalltoaction text-center">
+                <p>Hope to hear form you.</p>
+            </div>
+            
+            <nav class="navbar bg-body-teritiary">
+                <div class="container-fluid justify-content-center">
+                    <a class="nav-link" href="index.html">Skills</a>
+                    <a class="nav-link" href="education.html">Education</a>
+                    <!--<a class="nav-link" href="#">Projects</a>
+                    <a class="nav-link" href="#">Hobbies</a>-->
+                    <a class="nav-link" href="goals.html">Goals</a>
+                    <a class="nav-link" href="contactme.html">Contact Me</a>
+                </div>
+            </nav>
+            
+            <div id="linkedin">
+                <p class="text-center">Check out my LinkedIn Profile.</p>
+                <a href="https://www.linkedin.com/in/vincentocchino/" target="_blank"><img src="images/linkedinlogo.png" alt="linkedin logo" class="mx-auto d-block img-fluid"></a>
+            </div>
+            <div id="copyright">
+                <p class="text-center">Copyright &copy; 2025</p>
+            </div>
+        </footer>
+
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
