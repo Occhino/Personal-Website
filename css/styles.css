@@ -66,6 +66,7 @@
 
 body {
 	background-color:rgb(97, 167, 175);
+	height: 100%;
 }
 
 .pageheader {
@@ -100,10 +101,6 @@ body {
 	background-color: burlywood;
 }
 
-html, body {
-	height: 100%;
-}
-
 footer {
 	margin-top: 50px;
 	padding: 10px 0px;
@@ -115,4 +112,8 @@ footer {
 	color: blue;
 	text-decoration-line: none;
 	text-align: center;
+}
+
+.nav-link:hover {
+	color:rgba(13, 170, 118, 0.699);
 }
