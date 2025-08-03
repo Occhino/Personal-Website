@@ -26,12 +26,13 @@
         </nav>
         
         <div class="container mt-5">
-            <h1>Contact Me</h1>
-            <form class="row g-3" action="https://formsubmit.co/ee63bd64446bf6fa89603dc8061df98c" method="POST">
+            <h1 class="text-center">Contact Me</h1>
+            <form class="row g-3 needs-validation" action="https://formsubmit.co/ee63bd64446bf6fa89603dc8061df98c" method="POST">
                 <!--Thank You Page-->
                 <input type="hidden" name="_next" value="https://occhino.github.io/Personal-Website/index.html">
                 <div class="col-md-12">
-                    <label for="subject" class="form-label">Subject</label>
+                    <p><span style="color: red;">*</span> indicates a required field</p>
+                    <label for="subject" class="form-label req">Subject</label>
                     <select class="form-select" id="subject" name="Topic" required>
                         <option selected disabled value="">Select One</option>
                         <option value="Web&nbsp;Development">Web Development</option>
@@ -41,15 +42,15 @@
                     </select>
                 </div>
                 <div class="col-md-6">
-                    <label for="firstName" class="form-label">First Name</label>
-                    <input type="text" class="form-control" id="firstName" name="First&nbsp;Name" required>
+                    <label for="firstName" class="form-label req">First Name</label>
+                    <input type="text" class="form-control" id="firstName" name="First&nbsp;Name" aria-describedby="fNamevalication" required>
                 </div>
                 <div class="col-md-6">
-                    <label for="lastName" class="form-label">Last Name</label>
+                    <label for="lastName" class="form-label req">Last Name</label>
                     <input type="text" class="form-control" id="lastName" name="Last&nbsp;Name" required>
                 </div>
                 <div class="col-md-8">
-                    <label for="emailInfo" class="form-label">Email</label>
+                    <label for="emailInfo" class="form-label req">Email</label>
                     <input type="email" class="form-control" id="emailInfo" name="Email" required>
                 </div>
                 <div class="col-md-4">
@@ -57,7 +58,7 @@
                     <input type="text" class="form-control" id="phoneNumber" name="Phone&nbsp;#" placeholder="+1 (555) 555-5555">
                 </div>
                 <div class="col-md-12">
-                    <label for="comments" class="form-label">Comments, Questions?</label>
+                    <label for="comments" class="form-label req">Comments, Questions?</label>
                     <textarea class="form-control" id="comments" name="Comments" rows="3" required></textarea>
                 </div>
                 <div class="col-md-12">
@@ -65,47 +66,7 @@
                 </div>
             </form>
         </div>
-        <!--<div class="row">
-            <div class="container">
-                <h3 class="text-center">Contact Me</h3>
-                <p>Sections with * are required</p>
-                <form class="row g-3" action="https://formsubmit.co/vincentocchino@yahoo.com" method="POST">
-                    <label for="subject">Select a subject: *</label>
-                    <select id="subject" name="Subject" size="4">
-                        <option selected>Select One</option>
-                        <option value="Web Development">Web Development</option>
-                        <option value="PC Repair/Maintenance">PC Repair/Maintenance</option>
-                        <option value="Job Position">Job Position</option>
-                        <option value="Other">Other</option>
-                    </select>
-                    
-                    <div class="col-md-6">
-                        <label for="firstName" class="form-label">First Name *</label>
-                        <input type="text" class="form-control" name="First&nbsp;Name" id="firstName" required>
-                    </div>
-                    <div class="col-md-6">
-                        <label for="lastName" class="form-label">Last Name *</label>
-                        <input type="text" class="form-control" name="Last&nbsp;Name" id="lastName" required>
-                    </div>
-                    <div class="col-md-8">
-                        <label for="emailInfo" class="form-label">Email *</label>
-                        <input type="text" class="form-control" name="Email" id="email" required>
-                    </div>
-                    <div class="col-md-4">
-                        <label for="phoneNumber" class="form-label">Phone Number</label>
-                        <input type="text" class="form-control" name="Phone&nbsp;Number" id="phoneNumber" required placeholder="+1 (555) 555-5555">
-                    </div>
-                    <div class="col-md-12">
-                        <label for="comments" class="form-label">Comments *</label>
-                        <textarea class="form-control" name="Comments,&nbsp;questions" id="comments" rows="3" required></textarea>
-                    </div>
-                    <div class="col-md-12">
-                        <buttton type="submit" class="btn btn-primary">Submit</buttton>
-                    </div>
-                </form>
-            </div>
-        </div>-->
-
+        
         <script src="js/jquery.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/script.js"></script>
