@@ -114,11 +114,6 @@ footer {
 	text-align: center;
 }
 
-/*label::after {
-	content: '*';
-	color: red;
-}*/
-
 .req::after {
 	content: '*';
 	color: red;
