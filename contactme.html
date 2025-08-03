@@ -31,7 +31,7 @@
                 <!--Thank You Page-->
                 <input type="hidden" name="_next" value="https://occhino.github.io/Personal-Website/index.html">
                 <div class="col-md-12">
-                    <label for="subject" class="form-label">Subject</label>
+                    <label for="subject" class="form-label" name="Topic">Subject</label>
                     <select class="form-select" id="subject" required>
                         <option selected disabled value="">Select One</option>
                         <option value="WebDevelopment">Web Development</option>
@@ -41,24 +41,24 @@
                     </select>
                 </div>
                 <div class="col-md-6">
-                    <label for="firstName" class="form-label">First Name</label>
-                    <input type="text" class="form-control" id="firstName" required>
+                    <label for="firstName" class="form-label"></label>First Name</label>
+                    <input type="text" class="form-control" id="firstName" name="First Name" required>
                 </div>
                 <div class="col-md-6">
-                    <label for="firstName" class="form-label">First Name</label>
-                    <input type="text" class="form-control" id="firstName" required>
+                    <label for="lastName" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="lastName" name="Last Name" required>
                 </div>
                 <div class="col-md-8">
                     <label for="emailInfo" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="emailInfo" required>
+                    <input type="email" class="form-control" id="emailInfo" name="Email" required>
                 </div>
                 <div class="col-md-4">
                     <label for="phoneNumber" class="form-label">Phone Number</label>
-                    <input type="text" class="form-control" id="phoneNumber" placeholder="+1 (555) 555-5555">
+                    <input type="text" class="form-control" id="phoneNumber" name="Phone #" placeholder="+1 (555) 555-5555">
                 </div>
                 <div class="col-md-12">
                     <label for="comments" class="form-label">Comments, Questions?</label>
-                    <textarea class="form-control" id="comments" rows="3" required></textarea>
+                    <textarea class="form-control" id="comments" name="Comments" rows="3" required></textarea>
                 </div>
                 <div class="col-md-12">
                     <button type="submit" class="btn btn-primary">Submit</button>
