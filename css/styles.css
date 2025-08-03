@@ -93,4 +93,23 @@ body {
 }
  table tr td img {
 	margin-top: 5px;
- }
+}
+
+.navbar, footer {
+	background-color: burlywood;
+}
+
+html, body {
+	height: 100%;
+}
+
+footer {
+	margin-top: 50px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	text-decoration-line: none;
+	text-align: center;
+}
