@@ -93,6 +93,18 @@ body {
 	border: 2px solid black;
 	padding: 0px 15px 0px 15px;
 }
+
+#personalintro .row {
+	margin: 0px;
+}
+
+#serviceareas {
+	margin-bottom: 5px;
+}
+.servicecity p {
+	margin-bottom: 5px;
+}
+
  table tr td img {
 	margin-top: 5px;
 }
@@ -116,4 +128,38 @@ footer {
 
 .nav-link:hover {
 	color:rgba(13, 170, 118, 0.699);
+}
+
+.servicecity {
+	margin: 0px;
+}
+
+#help {
+	background-color: bisque;
+	border: 2px solid black;
+	padding-bottom: 10px;
+}
+
+.helpitems {
+	margin: 0px;
+}
+
+.helpitems ul {
+	margin-bottom: 0px;
+}
+
+#success {
+	margin-top: 25%;
+}
+
+#successpg {
+	background-color: white;
+}
+
+#skills {
+	margin-top: 20px;
+}
+
+.pagesection {
+	margin-top: 20px;
 }
