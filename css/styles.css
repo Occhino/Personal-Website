@@ -188,3 +188,20 @@ hr {
 	margin: 50px 0px 0px 0px;
 	color: white;
 }
+
+.formcat {
+	color: white;
+}
+
+#indication {
+	color: white;
+}
+
+#contactme {
+	color: white;
+}
+
+h4 {
+	font-size: 1.35rem;
+	margin-top: 5px;
+}
