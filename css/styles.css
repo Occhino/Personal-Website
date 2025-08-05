@@ -65,7 +65,8 @@
 }
 
 body {
-	background-color:rgb(97, 167, 175);
+	/*background-color:rgb(97, 167, 175);*/
+	background-color: rgb(55,68,87);
 	height: 100%;
 }
 
@@ -109,19 +110,20 @@ body {
 	margin-top: 5px;
 }
 
-.navbar, footer {
+.navbar {
 	background-color: burlywood;
 }
 
 footer {
-	margin-top: 50px;
+	margin-top: 20px;
 	padding: 10px 0px;
-	
+	background-color: rgb(55,68,87);
+	color: white;
 }
 
-#backtotop {
+#backtop {
 	text-decoration: none;
-	color: blue;
+	color: white;
 	text-decoration-line: none;
 	text-align: center;
 }
@@ -162,4 +164,27 @@ footer {
 
 .pagesection {
 	margin-top: 20px;
+	color: white;
+}
+
+th, td {
+	background-color: bisque !important;
+	border-color: black !important;
+}
+
+table {
+	border: 2px solid black;
+}
+
+#btop {
+	background-color: rgb(55,68,87);
+}
+
+#footer {
+	background-color: rgb(55,68,87);
+}
+
+hr {
+	margin: 50px 0px 0px 0px;
+	color: white;
 }
